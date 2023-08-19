@@ -30,16 +30,5 @@
       "16": "./icons/visible_16.png",
       "48": "./icons/visible_48.png",
       "128": "./icons/visible_128.png"
-   },
-   "content_scripts": [
-      {
-         "matches": [
-            "https://www.youtube.com/*"
-         ],
-         "run_at": "document_idle",
-         "js": [
-            "content-script.js"
-         ]
-      }
-   ]
+   }
 }
